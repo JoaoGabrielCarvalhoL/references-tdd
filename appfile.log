@@ -1,0 +1,24 @@
+2022-08-26 10:53:09.082  INFO 64181 --- [main] br.com.carv.apitdd.ApiTddApplication     : Starting ApiTddApplication using Java 11.0.16 on joao-ubuntu with PID 64181 (/media/joao/7687187209A1FF691/Projetos/api-tdd/api-tdd/target/classes started by joao in /media/joao/7687187209A1FF691/Projetos/api-tdd/api-tdd)
+2022-08-26 10:53:09.086  INFO 64181 --- [main] br.com.carv.apitdd.ApiTddApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-08-26 10:53:09.832  INFO 64181 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-26 10:53:09.910  INFO 64181 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 69 ms. Found 2 JPA repository interfaces.
+2022-08-26 10:53:10.349  INFO 64181 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-08-26 10:53:10.357  INFO 64181 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-26 10:53:10.358  INFO 64181 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-08-26 10:53:10.432  INFO 64181 --- [main] o.a.c.c.C.[.[localhost].[/api-tdd]       : Initializing Spring embedded WebApplicationContext
+2022-08-26 10:53:10.432  INFO 64181 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1283 ms
+2022-08-26 10:53:10.580  INFO 64181 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-26 10:53:10.621  INFO 64181 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-08-26 10:53:10.735  INFO 64181 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-26 10:53:10.820  INFO 64181 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-08-26 10:53:11.053  INFO 64181 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-08-26 10:53:11.065  INFO 64181 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-08-26 10:53:11.614  INFO 64181 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-26 10:53:11.621  INFO 64181 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-26 10:53:12.178  WARN 64181 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-26 10:53:12.526  INFO 64181 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/api-tdd'
+2022-08-26 10:53:12.527  INFO 64181 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-08-26 10:53:12.538  INFO 64181 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-08-26 10:53:12.547  INFO 64181 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-08-26 10:53:12.690  INFO 64181 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: createUsingPOST_1
+2022-08-26 10:53:12.757  INFO 64181 --- [main] br.com.carv.apitdd.ApiTddApplication     : Started ApiTddApplication in 4.25 seconds (JVM running for 4.92)
